@@ -8,10 +8,10 @@
       dest: /etc/yum.repos.d/mongo.repo
 
   - name: install mongodb on server
-    ansibe.builtin.dnf:
+    ansible.builtin.dnf:
       name: mongodb-org
       state: present
-      
+
   - name: startand enable mogodb
     ansible.builtin.service:
       name: mongod
