@@ -1,5 +1,5 @@
 - name: configuring catalouge server
-  hosts: catalouge
+  hosts: catalogue
   become: yes
   tasks:
 
